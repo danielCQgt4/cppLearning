@@ -8,7 +8,7 @@ using namespace std;  // Estos definen elementos que se puede usar sin ::
 
 int globalInt = 100;  // variable global
 
-typedef int numero;//Sirve para ponerle un alias a un tipo, i.e: que int se use como numero y no como int
+typedef int numero;  //Sirve para ponerle un alias a un tipo, i.e: que int se use como numero y no como int
 
 /*
 Esto se debe a que las funciones que se pueden llamar en el main deben estar declaradas antes del main.
@@ -116,6 +116,12 @@ int main() {
     double cArr[4] = {0.1, 0.2, 0.3};
     float dArr[4] = {0.2, 0.3, 0.5};
     bool eArr[] = {false, true, false};
+
+    //PUNTEROS
+    /*
+        * -> es el valor de una variable o objeto
+        & -> es el puntero de una variable o objeto
+    */
 
     return 0;  // Al devolver un numero, si no se pone el compilador la pone. Sirve para indicar que aqui acaba el progama.
 }
