@@ -8,6 +8,8 @@ using namespace std;  // Estos definen elementos que se puede usar sin ::
 
 int globalInt = 100;  // variable global
 
+typedef int numero;//Sirve para ponerle un alias a un tipo, i.e: que int se use como numero y no como int
+
 /*
 Esto se debe a que las funciones que se pueden llamar en el main deben estar declaradas antes del main.
 */
@@ -93,7 +95,7 @@ int main() {
     functionReady();
     functionReady(50);
 
-    //Estructuras = Similar a las clases
+    //Estructuras = Similar a las clases, pero atributos publicos
     struct Person {
         int age;
         void birthday() {
