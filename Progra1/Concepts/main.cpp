@@ -109,10 +109,11 @@ int main() {
 
     /*Arreglos*/
     int arr1[4] = {0, 1, 2, 3};  // se puede usar HEXADECIMAL -> 0xAA=170
-    char b[] = "abcd";
-    double c[4] = {0.1, 0.2, 0.3};
-    float d[4] = {0.2, 0.3, 0.5};
-    bool e[] = {false, true, false};
+    char bArr[] = "abcd";
+    char bArr2[4] = {'a', 'b', 'c'};
+    double cArr[4] = {0.1, 0.2, 0.3};
+    float dArr[4] = {0.2, 0.3, 0.5};
+    bool eArr[] = {false, true, false};
 
     return 0;  // Al devolver un numero, si no se pone el compilador la pone. Sirve para indicar que aqui acaba el progama.
 }
