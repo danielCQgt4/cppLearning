@@ -10,5 +10,6 @@ int main() {
     cout << arr << " | " << *arr << " | " << &arr << endl;
     cout << "Valor " << arr[0] << endl;
     cout << sizeof(arr) << " | " << sizeof(*arr) << " | " << (&arr) << " | " << (&arr + 1) << endl;
+    
     return 0;
 }
